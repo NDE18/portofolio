@@ -31,6 +31,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             <strong>Email: </strong>'.$email.'<br />
             <strong>Message: </strong>'.nl2br($message).'<br />
         ';
+        var_dump("ECHO");
         $headers  = "MIME-Version: 1.1" . PHP_EOL;
         $headers .= "Content-type: text/html; charset=utf-8" . PHP_EOL;
         $headers .= "Content-Transfer-Encoding: 8bit" . PHP_EOL;
