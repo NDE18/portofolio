@@ -20,7 +20,7 @@ section{
     width: 100%;
     height: 700px;
     position: relative;
-    
+
 }
 nav{
     display: flex;
@@ -61,7 +61,7 @@ a.scrolltotop {
     width: 40px;
     z-index: 99;
   }
-      
+
 a.scrolltotop:hover {
     -webkit-box-shadow: 0 0 0 0 #272727;
     box-shadow: 0 0 0 0 #272727;
@@ -71,6 +71,7 @@ a.scrolltotop:hover {
     font-family: RoadTest;
     color: #000000;
     font-size: 22px;
+    margin-right: 15px;
 }
 .container{
     width: 50%;
@@ -81,7 +82,7 @@ a.scrolltotop:hover {
 .card{
     border-radius: 30px;
     margin: 15px 10px 15px 10px;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.2), 0 0 20px rgba(0,0,0,0.2); 
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2), 0 0 20px rgba(0,0,0,0.2);
 }
 .items{
     min-height: 40px;
@@ -91,7 +92,7 @@ a.scrolltotop:hover {
 }
 .items img{
     width: 20rem;
-} 
+}
 .position-top{
     top: 100%;
 }
@@ -267,7 +268,7 @@ hr{
 .owl-navigation .owl-nav-prev,
 .owl-navigation .owl-nav-next{
     opacity: 1;
-} 
+}
 .owl-nav-prev{
     position: absolute;
     top: 20%;
@@ -278,7 +279,7 @@ hr{
 }
 .right-0{
     right: 0;
-} 
+}
 .realisations{
     padding: 2% 5% 2% 5%;
 }
@@ -355,7 +356,7 @@ hr{
 }
 .box-1,.box-2,.box-3{
     width: 300px;
-    height: 320px; 
+    height: 320px;
     background-size: cover;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
     display: flex;
@@ -469,14 +470,14 @@ input[type=text], select, textarea{
     box-sizing: border-box;
     resize: vertical;
   }
-  
+
   /* Style the label to display next to the inputs */
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     color: white;
   }
-  
+
   /* Style the submit button */
   input[type=submit] {
     background-color: #8f8f8f;
@@ -492,34 +493,34 @@ input[type=text], select, textarea{
       color: black;
       background: #fff;
   }
-  
+
   /* Style the container */
   /* .container {
     border-radius: 5px;
     padding: 20px;
   } */
-  
+
   /* Floating column for labels: 25% width */
   .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
   }
-  
+
   /* Floating column for inputs: 75% width */
   .col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
   }
-  
+
   /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-  
+
   /* Responsive layout - when the screen is less than 600px wide,
    make the two columns stack on top of each other instead of next to each other */
 /* The alert message box */
@@ -680,7 +681,7 @@ footer p:nth-child(2){
         font-size: 20px;
     }
     .about-text p:nth-child(2){
-        font-size: 10;   
+        font-size: 10;
     }
     .about-text p:nth-child(3),
     .about-text p:nth-child(4){
