@@ -5,6 +5,7 @@ $emailTo       = '<rodriguekongne@gmail.com>';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
+    echo($_SERVER['REQUEST_METHOD']);
     $name    = stripslashes(trim($_POST['name']));
     $email   = stripslashes(trim($_POST['email']));
     $firstname = stripslashes(trim($_POST['message']));
